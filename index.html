@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>price</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Стоимость обучения</h1>
+
+
+        <div class="col-container">
+            <div class="col col1" style="background:#3d3bff">
+                <div class="item-black">
+                    <span class="fsz-14">скидка</span>
+                    <span class="fsz-30"> 40% </span>
+                    <span class="fsz-15"> первым 20 </span>
+                </div>
+                <div class="price__item_blue">
+
+                    <div class="full">Полная стоимость курса
+                        <span>50 000 ₽</span>
+                    </div>
+                    <div class="installment">
+                        <span>2 900 ₽</span>
+                        Рассрочка без первого взноса
+                    </div>
+                    <div class="for20">
+                        <span>29 000 ₽</span>
+                        Для первых 20-ти
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col2" style="background: #FAFBFE">
+
+                <div class="price__item_white">
+                    <h2>Запишитесь <br> на курс</h2>
+                    <div class="start">Старт курса: <span>7 сентября</span> </div>
+                    <div class="remains">Осталось: <span>19 мест</span> </div>
+                    <form id="consultation-form" action="#">
+
+                        <label for="fname"></label>
+                        <input type="text" required id="fname" name="firstname" pattern="^[a-zA-Z]+$+^[А-Яа-яЁё\s]+$"
+                            title="Некорректный ввод имени, повторите попытку" placeholder="Имя">
+
+                        <label for="phone"></label>
+                        <input type="text" required id="phone" name="phone" pattern="+\d [0-9]{11}"
+                            title="Некорректный номер, повторите попытку" placeholder="Телефон">
+
+                        <label for="email"></label>
+                        <input type="text" required id="email" name="email" placeholder="Email"
+                            pattern="^\S+@\S+\.\S+$">
+
+                        <label class="check hide1">Я согласен с условиями обработки
+                            <br> <a href="pyankovama.pdf" target="_blank">персональных данных</a>
+                            <input type="checkbox" required checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <input class="submit" type="submit" value="Записаться">
+
+                        <label class="check hide2">Я согласен с условиями обработки
+                            <br> <a href="pyankovama.pdf" target="_blank">персональных данных</a>
+                            <input type="checkbox" required checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
