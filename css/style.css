@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /*Обнуляющие стили*/
 /*Очистим все отступы и границы*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -96,6 +94,34 @@ h6 {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"), url("Roboto-Regular.woff2") format("woff2"), url("Roboto-Regular.woff") format("woff"), url("Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("Roboto-Bold.woff2") format("woff2"), url("Roboto-Bold.woff") format("woff"), url("Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab Light"), local("Roboto-Slab-Light"), url("RobotoSlab-Light.woff2") format("woff2"), url("RobotoSlab-Light.woff") format("woff"), url("RobotoSlab-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab Regular"), local("Roboto-Slab-Regular"), url("RobotoSlab-Regular.woff2") format("woff2"), url("RobotoSlab-Regular.woff") format("woff"), url("RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container {
   padding-top: 66px;
   padding-bottom: 66px;
@@ -165,7 +191,7 @@ h1 {
 }
 
 .item-black .fsz-14 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -178,7 +204,7 @@ h1 {
 }
 
 .item-black .fsz-30 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -189,7 +215,7 @@ h1 {
 }
 
 .item-black .fsz-15 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -201,7 +227,7 @@ h1 {
 }
 
 .full {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -214,7 +240,7 @@ h1 {
 
 .full span {
   margin-top: 4px;
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 300;
   font-size: 38px;
@@ -230,7 +256,7 @@ h1 {
 
 .installment {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
@@ -241,7 +267,7 @@ h1 {
 
 .installment span {
   display: block;
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: normal;
   font-size: 80px;
@@ -251,7 +277,7 @@ h1 {
 
 .for20 {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -262,7 +288,7 @@ h1 {
 
 .for20 span {
   display: block;
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 300;
   font-size: 50px;
@@ -271,7 +297,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -287,7 +313,7 @@ h2 br {
 }
 
 .start {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -308,7 +334,7 @@ h2 br {
 }
 
 .remains {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -465,7 +491,7 @@ form {
   }
   .installment span {
     display: block;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
